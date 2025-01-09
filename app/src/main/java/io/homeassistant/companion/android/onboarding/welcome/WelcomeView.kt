@@ -59,7 +59,7 @@ fun WelcomeView(
         val annotatedString = buildAnnotatedString {
             withLink(
                 LinkAnnotation.Url(
-                    url = "https://www.home-assistant.io",
+                    url = "https://hhs.nl",
                     styles = TextLinkStyles(
                         SpanStyle(
                             color = MaterialTheme.colors.primary,
