@@ -999,8 +999,8 @@
     <string name="webview_error_SSL_NOTYETVALID">The AutoHome certificate is not yet valid, please review the AutoHome certificate or the connection settings and try again.</string>
     <string name="webview_error_SSL_UNTRUSTED">The AutoHome certificate authority is not trusted, please review the AutoHome certificate or the connection settings and try again.</string>
     <string name="webview_error">There was an error loading AutoHome, please review the connection settings and try again. We will attempt to try another provided URL when you select Refresh.</string>
-    <string name="welcome_hass_desc">This app connects to your AutoHome server and allows integrating data about you and your phone.\n\nAutoHome is free and open source home automation software with a focus on local control and privacy.</string>
-    <string name="welcome_hass">Welcome to AutoHome Companion!</string>
+    <string name="welcome_hass_desc">This app connects to your AutoHome server and allows integrating data about you and your phone.</string>
+    <string name="welcome_hass">Welcome to AutoHome!</string>
     <string name="what_is_this_crash">Unable to load AutoHome home page, do you have a browser installed?</string>
     <string name="widget_attribute_separator_label">Separator between attributes:</string>
     <string name="widget_background_type_label">Widget theme:</string>
