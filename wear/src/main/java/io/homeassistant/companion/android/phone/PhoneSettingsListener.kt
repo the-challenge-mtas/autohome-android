@@ -198,7 +198,7 @@ class PhoneSettingsListener : WearableListenerService(), DataClient.OnDataChange
             intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
             startActivity(intent)
         } catch (e: Exception) {
-            Log.e(TAG, "Unable to login to Home Assistant", e)
+            Log.e(TAG, "Unable to login to AutoHome", e)
             try {
                 if (serverId != null) {
                     serverManager.authenticationRepository(serverId).revokeSession()
