@@ -925,9 +925,9 @@ abstract class AppDatabase : RoomDatabase() {
             runBlocking {
                 try {
                     integrationRepository.fireEvent("mobile_app.migration_failed", mapOf())
-                    Log.d(TAG, "Event sent to AutoHome")
+                    Log.d(TAG, "Event sent to Home Assistant")
                 } catch (e: Exception) {
-                    Log.e(TAG, "Unable to send event to AutoHome", e)
+                    Log.e(TAG, "Unable to send event to Home Assistant", e)
                     Handler(Looper.getMainLooper()).post {
                         Toast.makeText(
                             appContext,
